@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Dogs - Paws&Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: #FFF9F0;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #E8C39E 0%, #D4A574 100%);
+            color: #5D4037;
+            padding: 1rem 0;
+        }
+        
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: #5D4037;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 120px 2rem 4rem;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #D4A574;
+            margin-bottom: 3rem;
+        }
+        
+        .dogs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .dog-card {
+            background: white;
+            overflow: hidden;
+        }
+        
+        
+        .dog-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .dog-info {
+            padding: 1.5rem;
+        }
+        
+        .dog-name {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Paws&Home</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dogs.html">Available Dogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Available Dogs</h1> 
+        <div class="dogs-grid">
+            <div class="dog-card">
+                <img src="img/1.jpg" alt="Bella" class="dog-image">
+                <div class="dog-info">
+                    <h2 class="dog-name">Bella (female)</h2>
+                    <p class="dog-name">1 years old</p>
+                    <p class="dog-name">Friendly and calm</p>
+                </div>
+            </div>       
+            <div class="dog-card">
+                <img src="img/2.jpg" alt="Max" class="dog-image">
+                <div class="dog-info">
+                    <h2 class="dog-name">Doodle (male)</h2>
+                    <p class="dog-name">3 months</p>
+                    <p class="dog-name">Active and playful</p>
+                </div>
+            </div>
+            
+            <div class="dog-card">
+                <img src="img/3.jpg" alt="Charlie" class="dog-image">
+                <div class="dog-info">
+                    <h2 class="dog-name">Luna (female)</h2>
+                    <p class="dog-name">1 year old</p>
+                    <p class="dog-name">Small and sweet</p>
+                </div>
+            </div>
+            
+            <div class="dog-card">
+                <img src="img/4.jpg" alt="Luna" class="dog-image">
+                <div class="dog-info">
+                    <h2 class="dog-name">Rocky( male)</h2>
+                    <p class="dog-name">7 months</p>
+                    <p class="dog-name">Loyal and protective</p>
+                </div>
+            </div>
+            
+            <div class="dog-card">
+                <img src="img/5.jpg" alt="Rocky" class="dog-image">
+            <div class="dog-info">
+                    <h2 class="dog-name">Coco (female)</h2>
+                    <p class="dog-name">5 months</p>
+                    <p class="dog-name">Gentle and quiet</p>
+            </div>
+            </div>
+            <div class="dog-card">
+                <div class="video">
+                 <iframe width="100%" height="250"
+                 src="https://www.youtube.com/embed/VuBHV3ZiOJQ?si=XnJwZ2Q_UReyAkYV"
+                 frameborder="0"
+                 allowfullscreen>
+                 </iframe>
+                <h2 class="dog-name">How to pet a dog?</h2>
+            </div>
+    </div>
+    
+</body>
+</html>
